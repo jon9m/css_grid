@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    CSS Grids
+  </title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;
+    }
+
+    .wrapper>div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius eveniet nisi. Cumque, ducimus, reprehenderit. Consectetur
+      autem eum, architecto! Repudiandae voluptate, nulla eos libero dicta, maxime cum est! Facilis voluptatem beatae, dolore,
+      officia nemo quasi vero voluptates enim dolorum, magni molestiae, eius saepe. Illum dolor alias repellendus sit perspiciatis
+      eveniet debitis, veniam a assumenda iste adipisci, pariatur tempore commodi facilis ducimus soluta. Hic obcaecati libero
+      officia asperiores minima blanditiis, dignissimos ea, voluptates perferendis in laudantium. Suscipit dignissimos eius
+      reiciendis voluptatum!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam modi, explicabo, autem iste aperiam rem in alias
+      molestias, reprehenderit dignissimos dolore obcaecati quas. Reprehenderit eos accusamus doloremque. Officiis, cupiditate!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam modi, explicabo, autem iste aperiam rem in alias
+      molestias, reprehenderit dignissimos dolore obcaecati quas. Reprehenderit eos accusamus doloremque. Officiis, cupiditate!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam modi, explicabo, autem iste aperiam rem in alias
+      molestias, reprehenderit dignissimos dolore obcaecati quas. Reprehenderit eos accusamus doloremque. Officiis, cupiditate!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam modi, explicabo, autem iste aperiam rem in alias
+      molestias, reprehenderit dignissimos dolore obcaecati quas. Reprehenderit eos accusamus doloremque. Officiis, cupiditate!
+    </div>
+  </div>
+</body>
+
+</html>
